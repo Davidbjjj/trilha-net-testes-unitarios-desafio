@@ -12,8 +12,8 @@ public class ValidacoesStringTests
         //TODO: Corrigir a variável "texto" e "resultadoEsperado" da seção Arrange
 
         // Arrange
-        var texto = "beautiful";
-        var resultadoEsperado = 10;
+        var texto = "Matrix";
+        var resultadoEsperado = 6;
 
         // Act
         var resultado = _validacoes.RetornarQuantidadeCaracteres(texto);
